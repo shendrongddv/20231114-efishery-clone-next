@@ -7,14 +7,14 @@ import { ArticleCard } from "./article-card";
 const Blog = () => {
   return (
     <section className="px-4 py-24">
-      <div className="container flex flex-col items-center gap-8">
+      <div className="container flex flex-col items-center gap-12">
         {/* Row */}
-        <h2 className="text-center text-2xl font-semibold md:text-5xl">
+        <h2 className="text-center text-2xl font-semibold text-foreground md:w-4/5 md:text-5xl">
           Jelajahi Berita Terbaru di Dunia Akuakultur
         </h2>
 
         {/* Row */}
-        <ul className="grid w-full gap-4 sm:grid-cols-2 md:grid-cols-3">
+        <ul className="grid w-full gap-8 sm:grid-cols-2 md:grid-cols-3 md:gap-12">
           {dataArticles?.map((item) => (
             <li key={item.id}>
               <ArticleCard />
@@ -23,7 +23,7 @@ const Blog = () => {
         </ul>
 
         {/* Row */}
-        <Button asChild variant="link">
+        <Button asChild variant="link" className="-mt-4">
           <Link href="/" aria-label="Lihat semua resource">
             Lihat semua resource
             <ChevronRight className="ml-2 h-4 w-4" />

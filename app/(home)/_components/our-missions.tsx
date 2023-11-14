@@ -5,15 +5,15 @@ const OurMisions = () => {
     <section className="bg-slate-100 px-4 py-24">
       <div className="container flex flex-col items-center gap-12">
         {/* Row */}
-        <h2 className="text-2xl font-semibold md:text-5xl">
+        <h2 className="text-2xl font-semibold text-foreground md:text-5xl">
           Aspirasi dan Tujuan Kami
         </h2>
 
         {/* Row */}
-        <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
+        <div className="flex flex-col items-center gap-12 max-md:text-center md:flex-row md:justify-between">
           {/* Col */}
           <div className="md:w-5/12">
-            <figure className="h-auto w-full">
+            <figure className="mx-auto h-auto w-4/5 md:w-full">
               <Image
                 src="/misi-global-hifi-1.webp"
                 alt="Image"

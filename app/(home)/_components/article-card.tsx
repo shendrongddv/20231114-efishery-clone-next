@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export const ArticleCard = () => {
   return (
-    <div className="group grid gap-4 rounded-2xl p-4 transition duration-500 hover:bg-slate-100">
+    <div className="group grid gap-4 rounded-2xl border p-2 transition duration-500">
       {/* # */}
       <figure className="aspect-h-3 aspect-w-4 grid w-full place-content-start overflow-hidden rounded-xl">
         <Image
