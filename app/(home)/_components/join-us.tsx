@@ -5,10 +5,10 @@ import Link from "next/link";
 
 const JoinUs = () => {
   return (
-    <section className="px-4 pt-24">
-      <div className="container flex flex-col items-center gap-8">
+    <section className="px-4">
+      <div className="container flex flex-col items-center gap-8 overflow-hidden rounded-2xl bg-slate-100 pt-16">
         {/* Row */}
-        <h2 className="text-center text-2xl font-semibold text-foreground md:w-4/5 md:text-5xl">
+        <h2 className="text-center text-2xl font-semibold text-foreground max-md:px-4 md:w-4/5 md:text-5xl">
           Siap untuk Menciptakan Dampak Positif? Ayo Gabung bersama Kami
         </h2>
 
@@ -21,13 +21,13 @@ const JoinUs = () => {
         </Button>
 
         {/* Row */}
-        <figure className="mt-4 w-full md:w-3/5">
+        <figure className="w-full md:w-3/5">
           <Image
             src="/career-entry-hifi-1.webp"
             alt="Image"
             width={572}
             height={348}
-            className="h-auto w-full"
+            className="h-auto w-full translate-y-6"
           />
         </figure>
       </div>
