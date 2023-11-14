@@ -14,7 +14,7 @@ const Blog = () => {
         </h2>
 
         {/* Row */}
-        <ul className="grid w-full gap-8 sm:grid-cols-2 md:grid-cols-3 md:gap-12">
+        <ul className="grid w-full gap-8 sm:grid-cols-2 md:grid-cols-3">
           {dataArticles?.map((item) => (
             <li key={item.id}>
               <ArticleCard />
