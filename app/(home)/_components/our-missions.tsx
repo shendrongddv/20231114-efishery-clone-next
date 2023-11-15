@@ -13,7 +13,7 @@ const OurMisions = () => {
         <div className="flex flex-col items-center gap-12 max-md:text-center md:flex-row md:justify-between">
           {/* Col */}
           <div className="md:w-5/12">
-            <figure className="mx-auto h-auto w-4/5 md:w-full">
+            <figure className="mx-auto h-auto w-full">
               <Image
                 src="/misi-global-hifi-1.webp"
                 alt="Image"

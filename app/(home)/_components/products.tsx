@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Products = () => {
   return (
-    <section className="bg-[#FAFAFA] px-4 py-24">
+    <section className="bg-[#FAFAFA] px-4 pt-24">
       <div className="container">
         <ul className="grid gap-12 md:grid-cols-2 md:gap-8">
           {dataProducts?.map((item) => (
