@@ -25,7 +25,7 @@ export const NavMobile = () => {
                 desc={item.desc}
                 icon={item.icon}
               >
-                <ul className="grid">
+                <ul className="grid gap-1">
                   {item.links?.map((item) => (
                     <li key={item.id}>
                       <NavLink
@@ -67,7 +67,7 @@ const NavLink = ({ label, url, desc, icon: Icon }: NavLinkProps) => {
       <Button
         asChild
         variant="ghost"
-        className="w-full justify-start rounded-none text-foreground"
+        className="w-full justify-start rounded-none text-base font-medium text-foreground"
       >
         <Link href={url} aria-label={label}>
           {/* <Icon className="mr-2 h-4 w-4 text-primary" /> */}
@@ -94,11 +94,8 @@ const NavAccordion = ({
   children,
 }: NavAccordionProps) => {
   return (
-    <AccordionItem
-      value="item-1"
-      className="border-none p-0 text-sm font-normal"
-    >
-      <AccordionTrigger className="justify-start px-4 py-2 hover:no-underline">
+    <AccordionItem value="item-1" className="border-none p-0">
+      <AccordionTrigger className="justify-start px-4 py-2 text-base font-medium text-foreground hover:no-underline">
         <Icon className="mr-2 h-5 w-5 rounded bg-primary p-0.5 text-white" />
         {label}
       </AccordionTrigger>
