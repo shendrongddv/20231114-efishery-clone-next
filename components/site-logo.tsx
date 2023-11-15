@@ -3,8 +3,9 @@
 import { useTheme } from "next-themes";
 import Image from "next/image";
 import Link from "next/link";
+import { SheetClose } from "./ui/sheet";
 
-export const SiteLogo = () => {
+export const SiteLogoTheme = () => {
   const { theme } = useTheme();
 
   return (
@@ -19,5 +20,39 @@ export const SiteLogo = () => {
         className="h-6 w-auto"
       />
     </Link>
+  );
+};
+
+export const SiteLogo = () => {
+  return (
+    <Link href="/" aria-label="eFishery">
+      <Image
+        priority
+        aria-hidden
+        src="/logo.webp"
+        alt="Logo"
+        width={160}
+        height={160}
+        className="h-8 w-auto md:h-10"
+      />
+    </Link>
+  );
+};
+
+export const SiteLogoMobile = () => {
+  return (
+    <SheetClose asChild>
+      <Link href="/" aria-label="eFishery">
+        <Image
+          priority
+          aria-hidden
+          src="/logo.webp"
+          alt="Logo"
+          width={160}
+          height={160}
+          className="h-8 w-auto md:h-10"
+        />
+      </Link>
+    </SheetClose>
   );
 };

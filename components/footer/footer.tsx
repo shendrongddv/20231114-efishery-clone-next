@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { Button } from "../ui/button";
-import { ChevronDown, Facebook } from "lucide-react";
+import { Facebook } from "lucide-react";
 import Image from "next/image";
 import { NavFooter } from "@/config/site";
+import { LanguageSwitcher } from "../language-switcher";
 
 const Footer = () => {
   return (
@@ -57,10 +58,7 @@ const Footer = () => {
       <div className="px-4 py-6">
         <div className="container flex items-center justify-between gap-4">
           {/* Col */}
-          <Button variant="outline" className="w-max">
-            ID
-            <ChevronDown className="ml-2 h-4 w-4" />
-          </Button>
+          <LanguageSwitcher />
 
           {/* Col */}
           <div className="flex gap-2">

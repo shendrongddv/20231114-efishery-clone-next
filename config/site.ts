@@ -1,3 +1,122 @@
+import { GraduationCap, LayoutGrid, ListTodo } from "lucide-react";
+
+// NavHeader
+export const NavHeader = [
+  {
+    id: 1,
+    label: "Solusi",
+    desc: "",
+    url: "/",
+    icon: LayoutGrid,
+    sublink: true,
+    links: [
+      {
+        id: 1,
+        label: "Lowongan Pekerjaan",
+        desc: "Bergabung bersama eFishery",
+        url: "/",
+        icon: ListTodo,
+      },
+      {
+        id: 2,
+        label: "eFishery Academy",
+        desc: "Tumbuh bersama eFishery",
+        url: "/",
+        icon: GraduationCap,
+      },
+      {
+        id: 3,
+        label: "Lihat semua Program",
+        desc: "",
+        url: "/",
+        icon: LayoutGrid,
+      },
+    ],
+  },
+  {
+    id: 2,
+    label: "Karir",
+    desc: "",
+    url: "/",
+    icon: LayoutGrid,
+    sublink: true,
+    links: [
+      {
+        id: 1,
+        label: "Lowongan Pekerjaan",
+        desc: "Bergabung bersama eFishery",
+        url: "/",
+        icon: ListTodo,
+      },
+      {
+        id: 2,
+        label: "eFishery Academy",
+        desc: "Tumbuh bersama eFishery",
+        url: "/",
+        icon: GraduationCap,
+      },
+      {
+        id: 3,
+        label: "Lihat semua Program",
+        desc: "",
+        url: "/",
+        icon: LayoutGrid,
+      },
+    ],
+  },
+  {
+    id: 3,
+    label: "Perusahaan",
+    desc: "",
+    url: "/",
+    icon: LayoutGrid,
+    sublink: false,
+    links: [
+      {
+        id: 1,
+        label: "LABELXXX",
+        desc: "DESCXXX",
+        url: "/",
+        icon: LayoutGrid,
+      },
+    ],
+  },
+  {
+    id: 4,
+    label: "Resource",
+    desc: "",
+    url: "/",
+    icon: LayoutGrid,
+    sublink: false,
+    links: [
+      {
+        id: 1,
+        label: "LABELXXX",
+        desc: "DESCXXX",
+        url: "/",
+        icon: LayoutGrid,
+      },
+    ],
+  },
+  {
+    id: 5,
+    label: "Bantuan",
+    desc: "",
+    url: "/",
+    icon: LayoutGrid,
+    sublink: false,
+    links: [
+      {
+        id: 1,
+        label: "LABELXXX",
+        desc: "DESCXXX",
+        url: "/",
+        icon: LayoutGrid,
+      },
+    ],
+  },
+];
+
 // NavFooter
 export const NavFooter = [
   {

@@ -83,58 +83,6 @@ export const dataProducts = [
   },
 ];
 
-// Reviews
-export const dataReviews = [
-  {
-    id: 1,
-    user: {
-      name: "Mujahid",
-      isMale: true,
-      city: "Tasikmalaya",
-      job: "Pembudidaya Ikan",
-      avatar: "user-1.png",
-    },
-    reviews:
-      "eFishery hadir di setiap fase krusial dalam pertumbuhan bisnis saya. Fishery tidak hanya memberikan kemajuan di tambak saya, tetapi juga menginspirasi saya tentang pentingnya tumbuh bersama.",
-  },
-  // {
-  //   id: 2,
-  //   user: {
-  //     name: "Evi",
-  //     isMale: false,
-  //     city: "Tasikmalaya",
-  //     job: "Petambak Udang",
-  //     avatar: "user-2.png",
-  //   },
-  //   reviews:
-  //     "eFishery mengejarkan apa arti keberlanjutan yang sesungguhnya, bukan hanya melalui praktik-praktiknya, tetapi juga dalam semangat yang mereka gaungkan. Sekarang, saya paham bahwa budidaya udang bisa diwariskan untuk generasi berikutnya, memastikan masa depan yang makmur bagi anak-anak saya",
-  // },
-  {
-    id: 3,
-    user: {
-      name: "Darmansyah",
-      isMale: true,
-      city: "Sumbawa",
-      job: "Petambak Udang",
-      avatar: "user-3.png",
-    },
-    reviews:
-      "eFishery menginspirasi saya bahwa kemajuan teknologi bisa diraih oleh siapapun, termasuk saya dan rekan-rekan Petambak Udang di daerah saya.",
-  },
-  {
-    id: 4,
-    user: {
-      name: "Isa",
-      isMale: true,
-      city: "Lombok",
-      job: "Pembudidaya Udang",
-      avatar: "user-4.png",
-    },
-    reviews:
-      "Semenjak mengenal eFishery, saya ingin meneruskan semangat tumbuh bersama ke kelompok Pembudidaya Ikan di sekitar saya",
-  },
-];
-
 // Articles
 export const dataArticles = [
   {
@@ -180,26 +128,6 @@ export const dataArticles = [
     },
   },
 ];
-
-// Testimonials
-// export const dataTestimonials = [
-//   {
-//     id: 1,
-//     text: "General review about eFishery. max 3 sentences, 30-40 words, use informal tone",
-//     rating: 4, // range 1-5
-//     user: {
-//       name: "FirstName LastName",
-//       isMale: true,
-//       age: 29,
-//       city: "City",
-//     },
-//     job: "Job Position",
-//     institution: {
-//       name: "Company Name",
-//       city: "Company Address (City)",
-//     },
-//   },
-// ];
 
 export const dataTestimonials = [
   {

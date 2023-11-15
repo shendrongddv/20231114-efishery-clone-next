@@ -1,9 +1,10 @@
 import Footer from "@/components/footer/footer";
+import Header from "@/components/header/header";
 
 const HomeLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
-      <header></header>
+      <Header />
       <main>{children}</main>
       <Footer />
     </>
