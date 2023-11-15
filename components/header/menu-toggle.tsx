@@ -13,12 +13,12 @@ import { LanguageSwitcher } from "../language-switcher";
 
 import { NavMobile } from "./nav-mobile";
 
-export const MenuToggle = () => {
+export const MenuToggle = ({ showBackground }: { showBackground: boolean }) => {
   return (
     <Sheet>
       {/* # */}
       <SheetTrigger asChild className="flex md:hidden">
-        <Button variant="default" size="icon">
+        <Button variant={!showBackground ? "default" : "secondary"} size="icon">
           <Menu className="h-4 w-4" />
         </Button>
       </SheetTrigger>
