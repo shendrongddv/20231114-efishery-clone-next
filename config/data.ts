@@ -179,3 +179,46 @@ export const dataTestimonials = [
     institution: { name: "Konsultan Perikanan Jaya", city: "Medan" },
   },
 ];
+
+// Solutions
+export const dataSolutions = [
+  {
+    id: 1,
+    title: "eFisheryKu",
+    desc: "Solusi dari Pakan hingga Jual Download eFisheryKu App",
+    link: {
+      label: "Play Store",
+      url: "/",
+    },
+    media: {
+      image: "install-efisheryku-app.webp",
+      icon: "",
+    },
+  },
+  {
+    id: 2,
+    title: "eFarm",
+    desc: "Solusi Cegah Penyakit Udang Download eFarm App",
+    link: {
+      label: "Download eFarm Apps",
+      url: "/",
+    },
+    media: {
+      image: "install-efarm-app.webp",
+      icon: "",
+    },
+  },
+  {
+    id: 3,
+    title: "eFisheryShrimp $ eFisheryFish",
+    desc: "Penuhi Suplai Ikan dan Udang Order Sekarang",
+    link: {
+      label: "Segera Hadir",
+      url: "/",
+    },
+    media: {
+      image: "install-efishery-fishshrimp-app.webp",
+      icon: "",
+    },
+  },
+];
