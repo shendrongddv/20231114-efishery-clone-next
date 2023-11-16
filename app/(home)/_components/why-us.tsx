@@ -19,7 +19,7 @@ const WhyUs = () => {
           slides: { perView: 4, spacing: 32 },
         },
       },
-      slides: { perView: 1.4, spacing: 16 },
+      slides: { perView: 1.4 },
       loop: true,
     },
     [
@@ -34,7 +34,7 @@ const WhyUs = () => {
           if (mouseOver) return;
           timeout = setTimeout(() => {
             slider.next();
-          }, 2000);
+          }, 4000);
         }
         slider.on("created", () => {
           slider.container.addEventListener("mouseover", () => {

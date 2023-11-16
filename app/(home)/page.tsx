@@ -13,7 +13,7 @@ const HomePage = () => {
       {/* Group */}
       <div className="relative flex bg-[url(/home-hero-hifi-1.webp)] bg-cover bg-[75%_50%] bg-no-repeat">
         {/* Overlay */}
-        <span className="absolute inset-0 z-0 bg-black bg-opacity-30"></span>
+        <span className="absolute inset-0 z-0 bg-black bg-opacity-40"></span>
 
         {/* Content */}
         <div className="z-10 w-full">
