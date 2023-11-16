@@ -15,11 +15,9 @@ const BlogSlides = () => {
         },
         "(min-width: 768px)": {
           slides: { perView: 3, spacing: 24 },
-          loop: false,
         },
         "(min-width: 1024px)": {
           slides: { perView: 3, spacing: 32 },
-          loop: false,
         },
       },
       slides: { perView: 1.4 },
@@ -66,7 +64,7 @@ const BlogSlides = () => {
         </h2>
 
         {/* Row */}
-        <div ref={sliderRef} className="keen-slider">
+        <div ref={sliderRef} className="keen-slider w-full">
           {dataArticles?.map((item) => (
             <div key={item.id} className="keen-slider__slide">
               <div className="max-md:pl-4">
