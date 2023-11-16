@@ -1,4 +1,4 @@
-import Blog from "./_components/blog";
+import BlogSlides from "./_components/blog-slides";
 import Hero from "./_components/hero";
 import JoinUs from "./_components/join-us";
 import OurMisions from "./_components/our-missions";
@@ -38,7 +38,7 @@ const HomePage = () => {
       <JoinUs />
 
       {/* Blog */}
-      <Blog />
+      <BlogSlides />
 
       {/* OurSolutions */}
       <OurSolutions />

@@ -1,6 +1,5 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Item } from "@radix-ui/react-dropdown-menu";
 import { ChevronRight, MessageSquare, Share2 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
