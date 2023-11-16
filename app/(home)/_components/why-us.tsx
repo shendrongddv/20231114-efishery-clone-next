@@ -9,9 +9,6 @@ const WhyUs = () => {
   const [sliderRef] = useKeenSlider<HTMLDivElement>(
     {
       breakpoints: {
-        "(min-width: 400px)": {
-          slides: { perView: 1.4, spacing: 16 },
-        },
         "(min-width: 640px)": {
           slides: { perView: 3, spacing: 24 },
         },
@@ -22,7 +19,7 @@ const WhyUs = () => {
           slides: { perView: 4, spacing: 32 },
         },
       },
-      slides: { perView: 1 },
+      slides: { perView: 1.4, spacing: 16 },
       loop: true,
     },
     [
