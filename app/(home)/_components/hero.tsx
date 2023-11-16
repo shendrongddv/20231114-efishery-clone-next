@@ -4,10 +4,10 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="bg-[url(/home-hero-hifi-1.webp)] bg-cover bg-center bg-no-repeat px-4 py-24">
+    <section className="z-10 w-full px-4 pb-24 pt-48">
       <div className="container">
-        <div className="flex flex-col gap-12 md:w-4/5">
-          <h1 className="text-3xl font-semibold text-white md:text-6xl">
+        <div className="flex flex-col gap-12 md:w-2/3">
+          <h1 className="text-3xl font-semibold text-white md:text-5xl">
             Tumbuh Bersama Lebih dari 70.000 Pembudidaya di 280 Kota/Kabupaten
             di Indonesia
           </h1>

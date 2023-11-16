@@ -19,6 +19,8 @@
     "@radix-ui/react-toggle": "^1.0.3",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
+    "keen-slider": "^6.8.6",
+    "lightgallery": "^2.7.2",
     "lucide-react": "^0.290.0",
     "next": "14.0.0",
     "next-themes": "^0.2.1",
