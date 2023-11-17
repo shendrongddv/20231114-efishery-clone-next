@@ -58,7 +58,7 @@ const Footer = () => {
       <div className="px-4 py-6">
         <div className="container flex items-center justify-between gap-4">
           {/* Col */}
-          <LanguageSwitcher />
+          <LanguageSwitcher showBackground={true} />
 
           {/* Col */}
           <div className="flex gap-2">

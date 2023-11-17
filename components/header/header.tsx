@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import { SiteLogo } from "../site-logo";
 import { MenuToggle } from "./menu-toggle";
 import { cn } from "@/lib/utils";
+import { LanguageSwitcher } from "../language-switcher";
+import { NavDesktop } from "./nav";
 
 const TOP_OFFSET = 66;
 
@@ -40,8 +42,14 @@ const Header = () => {
           <SiteLogo />
 
           {/* Nav */}
+          <NavDesktop showBackground={showBackground} />
 
           {/* LanguageSwitcher */}
+          <div className="hidden md:flex">
+            <LanguageSwitcher showBackground={showBackground} />
+          </div>
+
+          {/* MenuToggle */}
           <MenuToggle showBackground={showBackground} />
         </div>
       </div>

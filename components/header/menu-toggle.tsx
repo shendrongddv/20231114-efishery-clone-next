@@ -44,7 +44,7 @@ export const MenuToggle = ({ showBackground }: { showBackground: boolean }) => {
           {/* # */}
           <div className="mt-auto flex items-center justify-between gap-4 p-4">
             {/* Col */}
-            <LanguageSwitcher />
+            <LanguageSwitcher showBackground={true} />
 
             {/* Col */}
             <span className="text-sm text-muted-foreground">

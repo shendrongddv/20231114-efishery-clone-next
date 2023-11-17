@@ -1,11 +1,35 @@
-import { ChevronDown } from "lucide-react";
-import { Button } from "./ui/button";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { cn } from "@/lib/utils";
+import { Globe } from "lucide-react";
 
-export const LanguageSwitcher = () => {
+export const LanguageSwitcher = ({
+  showBackground,
+}: {
+  showBackground: boolean;
+}) => {
   return (
-    <Button variant="outline" size="sm" className="w-max">
-      ID
-      <ChevronDown className="ml-2 h-4 w-4" />
-    </Button>
+    <div
+      className={cn(
+        "flex items-center gap-2",
+        showBackground ? "" : "text-white",
+      )}
+    >
+      <Globe className="h-4 w-4" />
+      <Select>
+        <SelectTrigger className={cn("w-max gap-2 bg-transparent")}>
+          <SelectValue defaultValue="id" placeholder="ID" />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectItem value="id">ID</SelectItem>
+          <SelectItem value="en">EN</SelectItem>
+        </SelectContent>
+      </Select>
+    </div>
   );
 };
