@@ -12,20 +12,27 @@ export const NavHeader = [
     links: [
       {
         id: 1,
-        label: "Lowongan Pekerjaan",
-        desc: "Bergabung bersama eFishery",
+        label: "eFish",
+        desc: "Solusi untuk Pembudidayaan Ikan",
         url: "/",
         icon: ListTodo,
       },
       {
         id: 2,
-        label: "eFishery Academy",
-        desc: "Tumbuh bersama eFishery",
+        label: "eShrimp",
+        desc: "Solusi untuk Pembudidayaan Udang",
         url: "/",
         icon: GraduationCap,
       },
       {
         id: 3,
+        label: "eFishery Fish & Shrimp",
+        desc: "Solusi untuk para pelaku bisnis & pedagang",
+        url: "/",
+        icon: LayoutGrid,
+      },
+      {
+        id: 4,
         label: "Lihat semua Program",
         desc: "",
         url: "/",
